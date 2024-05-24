@@ -1,1 +1,1 @@
-development.surge.sh
+developments.surge.sh
