@@ -45,6 +45,7 @@ const TrackRecorde = () => {
                     <td>Undertook a UNICEF-funded evaluation that aimed at documenting strengths, weaknesses, lessons learnt and drawing recommendations for consideration in the expansion of the project and future interventions, and to determine whether expected results had been achieved</td>
                     <td><img src="https://i.postimg.cc/k4ZGVpfZ/UNICEF-logo-1.png" alt="" /></td>
                 </tr>
+                <div className="divider divider-end"></div>
                 {/* row 2 */}
                 <tr className="bg-base-200">
                     <th>Completed</th>
