@@ -14,7 +14,7 @@ const Footer = () => {
   </div>
 </nav>
           </div>
-          <footer className="footer py-5 ">
+          <footer className="footer py-5  ">
   <nav>
   
   <h6 className="footer-title">Contact</h6> 

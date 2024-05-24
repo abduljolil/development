@@ -1,5 +1,6 @@
 import AboutUs from "../Home.jsx/AboutUs";
 import Banner from "../Home.jsx/Banner";
+import OurClients from "../Home.jsx/OurClients";
 import OurTeam from "../Home.jsx/OurTeam";
 import Services from "../Home.jsx/Services";
 import Testimonial from "../Home.jsx/Testimonial";
@@ -13,6 +14,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Services></Services>
             <OurTeam></OurTeam>
+            <OurClients></OurClients>
             <Testimonial></Testimonial>
         </div>
     );
