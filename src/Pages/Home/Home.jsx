@@ -5,6 +5,7 @@ import OurTeam from "../Home.jsx/OurTeam";
 import Services from "../Home.jsx/Services";
 import Testimonial from "../Home.jsx/Testimonial";
 import Thematic from "../Home.jsx/Thematic";
+import TrackRecorde from "../Home.jsx/TrackRecorde";
  
 
  
@@ -16,6 +17,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Services></Services>
             <Thematic></Thematic>
+            <TrackRecorde></TrackRecorde>
             <OurTeam></OurTeam>
             <OurClients></OurClients>
             <Testimonial></Testimonial>
