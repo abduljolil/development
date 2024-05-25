@@ -8,7 +8,7 @@ import Footer from "../Pages/Shared/Footer";
  
 const MainLayout = () => {
     return (
-        <div className="max-w-7xl mx-auto bg-base-100">
+        <div className="w-[1920px] mx-auto bg-base-100 border-8 border-blue-800 ">
           <Navber></Navber>
             <Outlet></Outlet>
             <Footer></Footer>

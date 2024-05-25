@@ -2,15 +2,15 @@
 
 const ServiceCard = ({img,title}) => {
     return (
-        <div className="card  bg-base-100 shadow-xl">
-        <figure className="px-8 pt-10">
-           <p className="text-5xl text-orange-700   rounded-full bg-base-300 p-7">{img}</p>
+        <div className="card w-[440px] h-[558px]  bg-base-100 shadow-2xl">
+        <figure className=" px-10 pt-10">
+           <p className="text-5xl shadow-blue-400 shadow-md text-orange-700 bg-base-200  rounded-full  p-7">{img}</p>
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title text-3xl font-bold w-72">{title}</h2>
+          <h2 className="card-title text-5xl font-bold font-Roboto text-[#441355] py-5 ">{title}</h2>
           
           <div className="card-actions">
-            <button className="underline">See More</button>
+            < a className="underline text-3xl">See More</ a>
           </div>
         </div>
       </div>

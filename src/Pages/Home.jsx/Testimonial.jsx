@@ -5,7 +5,7 @@ const Testimonial = () => {
         <div>
             <h1 className="text-7xl font-bold text-center py-9">Testimonial</h1>
             <div className="divider"><img src="https://i.postimg.cc/V6YdvJjJ/Group-518-7.png" alt="" /></div>
-            <h3 className="text-center text-lg font-semibold py-4">Kindly do not hesitate to enter into collaboration with Smart Vision for <br /> similar activities, as UNICEF was very pleased and satisfied by their work</h3>
+            <h3 className="text-center text-3xl font-semibold py-4">Kindly do not hesitate to enter into collaboration with Smart Vision for <br /> similar activities, as UNICEF was very pleased and satisfied by their work</h3>
             <div className="flex justify-center items-center gap-3 py-8">
 
                <img src="https://i.postimg.cc/QNcKmrMN/Ellipse-55.png" alt="" className=" w-32 h-40" />
@@ -19,8 +19,8 @@ const Testimonial = () => {
                 <img src="https://i.postimg.cc/LXL5xz2Q/Ellipse-59.png" alt=""  className=" w-30 h-40"/>
                  
             </div>
-           <h1 className="text-2xl font-bold text-center">Hanna Yoshimoto</h1>
-           <p className="text-center font-semibold">UNICEF</p>
+           <h1 className="text-3xl font-bold text-center font-Roboto">Hanna Yoshimoto</h1>
+           <p className="text-center  text-3xl py-5 font-Roboto">UNICEF</p>
            <div className="divider divider-end"></div>
         </div>
     );

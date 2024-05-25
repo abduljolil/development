@@ -12,7 +12,7 @@ import TrackRecorde from "../Home.jsx/TrackRecorde";
 
 const Home = () => {
     return (
-        <div className="space-y-8">
+        <div className="space-y-52  px-10">
             <Banner></Banner>
             <AboutUs></AboutUs>
             <Services></Services>

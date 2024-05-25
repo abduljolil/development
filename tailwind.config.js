@@ -5,9 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      Roboto: ["'Roboto Condensed'", 'sans-serif'],
+      Alata: ["'Alata'", 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [require("daisyui")],
 }
-
-

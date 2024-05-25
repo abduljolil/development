@@ -25,14 +25,14 @@ const Navber = () => {
                <img src="https://i.postimg.cc/KjXqLMND/Layer-1.png"  alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 flex items-center gap-3 text-lg font-semibold">
+                <ul className="menu menu-horizontal  flex items-center gap-10 text-3xl font-medium font-Roboto">
                     {navlink}
-
+                    <button className="bg-orange-500 py-3 px-5  rounded-3xl font-Roboto font-bold text-3xl text-white">Order Service</button>
                 </ul>
+              
             </div>
-            <div className="navbar-end">
-                <button className="bg-orange-500 py-1 px-5 text-lg rounded-3xl text-2xl text-white">Order Service</button>
-            </div>
+         
+          
         </div>
     </div>
     );

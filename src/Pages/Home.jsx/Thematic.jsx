@@ -7,10 +7,10 @@ import TitleSection from "../../Component/TitleSection";
 
 const Thematic = () => {
     return (
-        <div>
+        <div >
                <TitleSection title='Thematic Areas' drescription='Smart Vision for Consultancy and Development was incorporated in 2011 in Somalia. We 
          focus majorly on monitoring, evaluation, research and learning (MERL).'></TitleSection>
-            <div className="relative flex justify-center items-center">
+            <div className=" flex justify-center items-center">
              <div className="flex items-center">
              <div className="flex-col space-y-4">
                     <ThematicButton img='https://i.postimg.cc/MKpfFG5Y/Vector.png' title='Health'></ThematicButton>
@@ -21,10 +21,10 @@ const Thematic = () => {
                
                 
                 </div>
-                <img src="https://i.postimg.cc/FF8t5XKM/Group-917.png" className="h-72" alt="" />
+                <img src="https://i.postimg.cc/FF8t5XKM/Group-917.png" className="h-96 w-96" alt="" />
              </div>
               <div className="flex items-center">
-              <img src="https://i.postimg.cc/YqW5tDGh/Group-918.png" className="h-80" alt="" />
+              <img src="https://i.postimg.cc/YqW5tDGh/Group-918.png" className="h-[430px] w-96" alt="" />
               <div className=" flex-col space-y-4">
                 <ThematicButton img='https://i.postimg.cc/hGdd13sW/Group-4.png' title='Gender'></ThematicButton>
                     <ThematicButton img='https://i.postimg.cc/W1KZrPMw/Group-5.png' title='Business development'></ThematicButton>
@@ -37,7 +37,7 @@ const Thematic = () => {
        
       
             <div className="absolute   shadow-2xl rounded-full p-6">
-            <img src="https://i.postimg.cc/KjXqLMND/Layer-1.png" alt="" className="w-44"  />
+            <img src="https://i.postimg.cc/KjXqLMND/Layer-1.png" alt="" className="w-96 h-96"  />
             </div>
             </div>
             </div>
